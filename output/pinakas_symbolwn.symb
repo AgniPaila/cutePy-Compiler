@@ -1,0 +1,43 @@
+*************************************************************************************
+_____________________________________________________________________________________
+*SCOPE*:  name: fibonacci		 |nestingLevel: 2
+	*ENTITY*:  name: x		 |type: parameter		 |offset: 12
+	*ENTITY*:  name: %1		 |type: temporary variable	 |offset: 16
+	*ENTITY*:  name: %2		 |type: temporary variable	 |offset: 20
+	*ENTITY*:  name: %3		 |type: temporary variable	 |offset: 24
+	*ENTITY*:  name: %4		 |type: temporary variable	 |offset: 28
+	*ENTITY*:  name: %5		 |type: temporary variable	 |offset: 32
+_____________________________________________________________________________________
+*SCOPE*:  name: main_fibonacci		 |nestingLevel: 1
+	*ENTITY*:  name: x		 |type: variable		 |offset: 12
+	*ENTITY*:  name: fibonacci	 |type: function
+		*ARGUMENT*:  name: x
+_____________________________________________________________________________________
+*SCOPE*:  name: main		 |nestingLevel: 0
+	*ENTITY*:  name: main_fibonacci	 |type: function
+_____________________________________________________________________________________
+*************************************************************************************
+
+
+*************************************************************************************
+_____________________________________________________________________________________
+*SCOPE*:  name: main_fibonacci		 |nestingLevel: 1
+	*ENTITY*:  name: x		 |type: variable		 |offset: 12
+	*ENTITY*:  name: fibonacci	 |type: function
+		*ARGUMENT*:  name: x
+	*ENTITY*:  name: %6		 |type: temporary variable	 |offset: 16
+_____________________________________________________________________________________
+*SCOPE*:  name: main		 |nestingLevel: 0
+	*ENTITY*:  name: main_fibonacci	 |type: function
+_____________________________________________________________________________________
+*************************************************************************************
+
+
+*************************************************************************************
+_____________________________________________________________________________________
+*SCOPE*:  name: main		 |nestingLevel: 0
+	*ENTITY*:  name: main_fibonacci	 |type: function
+_____________________________________________________________________________________
+*************************************************************************************
+
+
