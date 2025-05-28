@@ -31,6 +31,6 @@ Each stage is designed to be extensible, allowing future enhancements such as op
 4. Intermediate representations (.int, .symb files) will be generated and saved, providing visibility into the compilation pipeline
 
 ## 📘 Course Info
-Course: Μεταφραστές (Compilers)
+Course: Μεταφραστές (Compilers - 4th year)
 
 Team: This project was developed in collaboration with one fellow student.
